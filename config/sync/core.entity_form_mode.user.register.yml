@@ -1,0 +1,13 @@
+uuid: ed3a56c9-2c43-4aaf-905f-266b258e4e4b
+langcode: nb
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 5pE_4hurqtIlZN3XDi7eTo5RG13BMG0Rh9HYlRI3h8U
+id: user.register
+label: Registrer
+description: ''
+targetEntityType: user
+cache: true

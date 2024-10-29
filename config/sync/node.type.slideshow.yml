@@ -1,0 +1,17 @@
+uuid: e577fc37-8876-412c-bd3b-54887dbb6363
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Slideshow
+type: slideshow
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

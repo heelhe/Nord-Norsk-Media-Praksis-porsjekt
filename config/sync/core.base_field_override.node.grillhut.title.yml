@@ -1,0 +1,18 @@
+uuid: ed5031d5-6b01-42f8-afec-ae1c4455d36a
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.grillhut
+id: node.grillhut.title
+field_name: title
+entity_type: node
+bundle: grillhut
+label: Grillhytte
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

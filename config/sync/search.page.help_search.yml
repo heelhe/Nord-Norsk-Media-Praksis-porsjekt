@@ -1,0 +1,14 @@
+uuid: be77777e-8480-4edc-89af-8f639138be8e
+langcode: nb
+status: true
+dependencies:
+  module:
+    - help
+_core:
+  default_config_hash: RZ-bcSekNSsAbIPLW7Gmyd3uUjIOSrPvnb8RCCZYJm8
+id: help_search
+label: Hjelp
+path: help
+weight: 0
+plugin: help_search
+configuration: {  }

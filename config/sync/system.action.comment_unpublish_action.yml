@@ -1,0 +1,13 @@
+uuid: d8d5a3b2-cbeb-4c0a-b87a-12d31b1e3469
+langcode: nb
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
+id: comment_unpublish_action
+label: 'Avpubliser kommentar'
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

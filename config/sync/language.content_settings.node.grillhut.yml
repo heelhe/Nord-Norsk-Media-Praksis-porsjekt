@@ -1,0 +1,11 @@
+uuid: d4a02f7b-f4e6-487d-b833-b7c82adad9f1
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.grillhut
+id: node.grillhut
+target_entity_type_id: node
+target_bundle: grillhut
+default_langcode: site_default
+language_alterable: false

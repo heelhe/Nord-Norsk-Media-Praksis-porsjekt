@@ -1,0 +1,14 @@
+uuid: a3b3244d-53d0-41d3-ada3-bcb9055fcb50
+langcode: nb
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
+id: user_search
+label: Brukere
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

@@ -1,0 +1,10 @@
+uuid: f163102e-5966-4601-90b1-444562fd4dbe
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
+id: medium
+label: 'Standard mellomstor dato'
+locked: false
+pattern: 'D d.m.Y H:i'

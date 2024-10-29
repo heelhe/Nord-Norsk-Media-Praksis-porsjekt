@@ -1,0 +1,17 @@
+uuid: 3cd9be80-336e-479c-9a88-f9cb23f6c263
+langcode: nb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: grillhut
+type: grillhut
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

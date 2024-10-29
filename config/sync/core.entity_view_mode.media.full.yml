@@ -1,0 +1,13 @@
+uuid: 4eecdc2b-c4fa-4528-a12b-5ad154847362
+langcode: nb
+status: false
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: dTfAUHooYV0uOVPO3saGpgv-c5PppJXDwxvwRTJOycM
+id: media.full
+label: 'Fullstendig innhold'
+description: ''
+targetEntityType: media
+cache: true

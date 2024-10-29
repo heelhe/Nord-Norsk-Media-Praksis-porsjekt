@@ -1,0 +1,10 @@
+uuid: 3470e4c9-1944-457a-9d4f-eb4ee8122da7
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
+id: account
+label: Brukerkonto-meny
+description: 'Lenker knyttet til den aktive brukerkontoen'
+locked: true

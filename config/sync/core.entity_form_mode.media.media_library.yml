@@ -1,0 +1,16 @@
+uuid: 3a8975d8-e3e9-47ca-a8b1-f39d26844149
+langcode: nb
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - media_library
+_core:
+  default_config_hash: 04_dAqpWYP1WmsXZ7IXJ7-yarCvNddD10EUkBDtIFy4
+id: media.media_library
+label: Mediebibliotek
+description: ''
+targetEntityType: media
+cache: true

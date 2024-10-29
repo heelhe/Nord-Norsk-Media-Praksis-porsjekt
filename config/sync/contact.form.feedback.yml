@@ -1,0 +1,14 @@
+uuid: 619db995-46ae-4a66-8089-c82eb5035528
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Tilbakemeldinger om nettstedet'
+recipients:
+  - henrikzheika@hotmail.com
+reply: ''
+weight: 0
+message: 'Din melding har blitt sendt.'
+redirect: ''

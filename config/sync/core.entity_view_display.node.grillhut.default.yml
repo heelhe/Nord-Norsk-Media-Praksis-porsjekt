@@ -1,0 +1,57 @@
+uuid: 1459e4f4-6ab1-4d69-89ff-f672b47161fb
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.node.grillhut.body
+    - field.field.node.grillhut.field_main_image
+    - field.field.node.grillhut.field_name
+    - field.field.node.grillhut.field_submitted_by
+    - image.style.extra_medium
+    - node.type.grillhut
+  module:
+    - media
+    - text
+    - user
+id: node.grillhut.default
+targetEntityType: node
+bundle: grillhut
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_main_image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: extra_medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_name:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_submitted_by:
+    type: entity_reference_label
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  links: true

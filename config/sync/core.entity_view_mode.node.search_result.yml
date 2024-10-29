@@ -1,0 +1,13 @@
+uuid: efc29dde-5c45-4629-969e-7bef267bfc1e
+langcode: nb
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: d8wBEm7XvJ6H3S0IneDD9PfTBklPIH7GMpxElVemPf8
+id: node.search_result
+label: 'Utheving av innskrevet søkeresultat'
+description: ''
+targetEntityType: node
+cache: true

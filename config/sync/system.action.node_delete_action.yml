@@ -1,0 +1,13 @@
+uuid: 57abba4c-1e65-4cbf-846d-dbf107554efa
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: t43OqwzP3CTbcAagSsWKNy6KwMm_zShXo3c4-So6rQg
+id: node_delete_action
+label: 'Slett innhold'
+type: node
+plugin: 'entity:delete_action:node'
+configuration: {  }

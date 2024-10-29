@@ -1,0 +1,13 @@
+uuid: a235480c-bb06-4dec-9f89-a0f6f9d9dda8
+langcode: nb
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QJ2aZ1xfVf59aq6Pz5X7fyUOa2HxuCoTwQ_RQjoulAU
+id: node.full
+label: 'Fullstendig innhold'
+description: ''
+targetEntityType: node
+cache: true

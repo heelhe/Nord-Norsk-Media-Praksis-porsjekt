@@ -1,0 +1,10 @@
+uuid: bdcd96a4-54c0-411c-9f8e-fa4a8a847f1c
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
+id: html_datetime
+label: 'HTML dato og tid'
+locked: true
+pattern: 'Y-m-d\TH:i:sO'

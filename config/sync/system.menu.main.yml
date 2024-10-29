@@ -1,0 +1,10 @@
+uuid: 175c2150-3cc9-4e46-b677-e23eff1b14ee
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: Hovedmeny
+description: 'Lenker for nettsted-deler'
+locked: true

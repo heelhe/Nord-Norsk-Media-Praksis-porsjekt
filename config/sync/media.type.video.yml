@@ -1,0 +1,16 @@
+uuid: 7707598c-49e9-4d9f-af4c-fd3fea56b25a
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hzgvcRgZHltqWf8hBmttoWh95tCJoPL25lPq9YSIRsY
+id: video
+label: Video
+description: 'En videofil som er lagret lokalt påserveren.'
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_video_file
+field_map:
+  name: name

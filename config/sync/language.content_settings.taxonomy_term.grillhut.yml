@@ -1,0 +1,11 @@
+uuid: b6c7edab-6bf3-417f-a7d9-db7f744869bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.grillhut
+id: taxonomy_term.grillhut
+target_entity_type_id: taxonomy_term
+target_bundle: grillhut
+default_langcode: site_default
+language_alterable: false

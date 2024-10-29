@@ -1,0 +1,24 @@
+uuid: 8bfac7cb-b682-470f-8f7a-186f2511390e
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.grillhut
+  module:
+    - text
+id: node.grillhut.body
+field_name: body
+entity_type: node
+bundle: grillhut
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

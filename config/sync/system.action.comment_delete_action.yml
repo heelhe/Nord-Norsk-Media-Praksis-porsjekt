@@ -1,0 +1,13 @@
+uuid: a1f01c8e-76a4-4456-ab46-434105fac3d1
+langcode: nb
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
+id: comment_delete_action
+label: 'Slett kommentar'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

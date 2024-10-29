@@ -1,0 +1,13 @@
+uuid: ddcc6f6b-d62e-4b5b-b666-043dcf9d7933
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Klistre innlegg på toppen av lister'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

@@ -1,0 +1,13 @@
+uuid: 41925e88-85e2-4b85-94a1-12b6a0f98a9f
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Fe3N1uqaAyyKJbVkqT-btXy3t98puW8GCRD822xjl10
+name: Artikkel
+type: article
+description: 'Bruk <em>artikler</em> for tidssensitivt innhold som nyheter, pressemeldinger eller blogginnlegg.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
