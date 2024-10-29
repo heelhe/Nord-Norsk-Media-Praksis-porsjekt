@@ -6,6 +6,9 @@ module:
   announcements_feed: 0
   automated_cron: 0
   big_pipe: 0
+  blazy: 0
+  blazy_layout: 0
+  blazy_ui: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -28,6 +31,7 @@ module:
   history: 0
   image: 0
   language: 0
+  layout_discovery: 0
   link: 0
   locale: 0
   media: 0
@@ -42,6 +46,9 @@ module:
   path_alias: 0
   search: 0
   shortcut: 0
+  slick: 0
+  slick_ui: 0
+  slick_views: 0
   system: 0
   taxonomy: 0
   text: 0
