@@ -1,22 +1,22 @@
-uuid: 98bdecf5-ccc6-489c-8ec0-1918d690f3a8
+uuid: a3f1abc5-fd49-4f01-957f-eedb37e1bcd4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media_image
-    - media.type.image
+    - field.storage.node.field_main_image
+    - node.type.grillhut
   module:
-    - image
-    - media
+    - node
+    - slick
     - slick_views
     - user
-id: slick_carousel
-label: 'Slick carousel'
+id: test_view
+label: 'test view'
 module: views
 description: ''
 tag: ''
-base_table: media_field_data
-base_field: mid
+base_table: node_field_data
+base_field: nid
 display:
   default:
     id: default
@@ -24,17 +24,17 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Slick carousel'
+      title: 'test view'
       fields:
-        name:
-          id: name
-          table: media_field_data
-          field: name
+        title:
+          id: title
+          table: node_field_data
+          field: title
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: media
-          entity_field: media
+          entity_type: node
+          entity_field: title
           plugin_id: field
           label: ''
           exclude: false
@@ -73,10 +73,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_media_image:
-          id: field_media_image
-          table: media__field_media_image
-          field: field_media_image
+        field_main_image:
+          id: field_main_image
+          table: node__field_main_image
+          field: field_main_image
           relationship: none
           group_type: group
           admin_label: ''
@@ -123,13 +123,10 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: slick_media
           settings:
-            image_link: ''
-            image_style: ''
-            image_loading:
-              attribute: lazy
-          group_column: ''
+            link: '0'
+          group_column: target_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -140,10 +137,9 @@ display:
           separator: ', '
           field_api_classes: false
       pager:
-        type: some
+        type: none
         options:
           offset: 0
-          items_per_page: 4
       exposed_form:
         type: basic
         options:
@@ -157,53 +153,70 @@ display:
       access:
         type: perm
         options:
-          perm: 'view media'
+          perm: 'access content'
       cache:
         type: tag
         options: {  }
       empty: {  }
-      sorts: {  }
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          order: DESC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
+          granularity: second
       arguments: {  }
       filters:
         status:
           id: status
-          table: media_field_data
+          table: node_field_data
           field: status
-          entity_type: media
+          entity_type: node
           entity_field: status
           plugin_id: boolean
           value: '1'
           group: 1
           expose:
             operator: ''
-        bundle:
-          id: bundle
-          table: media_field_data
-          field: bundle
-          entity_type: media
-          entity_field: bundle
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
           plugin_id: bundle
           value:
-            image: image
+            grillhut: grillhut
       style:
         type: slick
         options:
           caption:
-            name: '0'
+            title: title
+            field_main_image: '0'
           optionset: default
           class: ''
-          image: ''
+          image: field_main_image
           link: ''
           overlay: ''
           title: ''
-          vanilla: true
+          vanilla: false
           layout: ''
           cache: 0
-          admin_uri: '/en/admin/structure/views/ajax/display/slick_carousel/block_1/style_options?_wrapper_format=drupal_ajax'
+          admin_uri: '/en/admin/structure/views/ajax/display/test_view/page_1/style_options?_wrapper_format=drupal_ajax'
           grid: ''
           grid_medium: ''
           grid_small: ''
-          style: flexbox
+          style: ''
           skin: classic
           overridables:
             arrows: '0'
@@ -225,6 +238,11 @@ display:
           visible_items: null
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       query:
         type: views_query
         options:
@@ -242,21 +260,24 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.media.field_media_image'
-  block_1:
-    id: block_1
-    display_title: Block
-    display_plugin: block
+        - 'config:field.storage.node.field_main_image'
+  page_1:
+    id: page_1
+    display_title: Page
+    display_plugin: page
     position: 1
     display_options:
       display_extenders: {  }
+      path: test-view
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.media.field_media_image'
+        - 'config:field.storage.node.field_main_image'

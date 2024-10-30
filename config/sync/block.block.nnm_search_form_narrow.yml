@@ -1,17 +1,17 @@
-uuid: 3eae107b-481c-43b3-ab4a-3001063c69be
+uuid: caf9198f-11d7-491c-a449-a5ce5ee609a5
 langcode: nb
 status: true
 dependencies:
   module:
     - search
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
-id: olivero_search_form_narrow
-theme: olivero
-region: primary_menu
-weight: -4
+id: nnm_search_form_narrow
+theme: nnm
+region: header
+weight: -3
 provider: null
 plugin: search_form_block
 settings:

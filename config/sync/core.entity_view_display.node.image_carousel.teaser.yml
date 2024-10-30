@@ -1,18 +1,18 @@
-uuid: 3892a5e5-5339-44eb-9cc3-47ee49de6be0
+uuid: b4d3d396-b357-4488-91df-0cb2c759d7c9
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.slideshow.body
-    - field.field.node.slideshow.field_image_carousel
-    - node.type.slideshow
+    - field.field.node.image_carousel.body
+    - field.field.node.image_carousel.field_slide
+    - node.type.image_carousel
   module:
     - text
     - user
-id: node.slideshow.teaser
+id: node.image_carousel.teaser
 targetEntityType: node
-bundle: slideshow
+bundle: image_carousel
 mode: teaser
 content:
   body:
@@ -29,5 +29,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_image_carousel: true
+  field_slide: true
   langcode: true

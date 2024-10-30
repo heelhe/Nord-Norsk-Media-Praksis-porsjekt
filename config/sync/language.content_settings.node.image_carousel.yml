@@ -1,11 +1,11 @@
-uuid: 6419475b-b801-438f-b23b-913bbbda87f0
+uuid: 747f7ad2-453b-460e-b180-957c3a2f3172
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.slideshow
-id: node.slideshow
+    - node.type.image_carousel
+id: node.image_carousel
 target_entity_type_id: node
-target_bundle: slideshow
+target_bundle: image_carousel
 default_langcode: site_default
 language_alterable: false

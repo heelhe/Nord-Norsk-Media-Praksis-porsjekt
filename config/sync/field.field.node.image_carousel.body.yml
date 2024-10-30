@@ -1,16 +1,16 @@
-uuid: 5f9c2ce1-a00e-4843-834a-b372a3738bd6
+uuid: a1d18b04-5dce-41e9-9301-141f3e9a8382
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.slideshow
+    - node.type.image_carousel
   module:
     - text
-id: node.slideshow.body
+id: node.image_carousel.body
 field_name: body
 entity_type: node
-bundle: slideshow
+bundle: image_carousel
 label: Body
 description: ''
 required: false

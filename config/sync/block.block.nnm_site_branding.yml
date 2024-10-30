@@ -1,17 +1,17 @@
-uuid: e12bbadd-8fa0-42a4-9a69-cca884da0db2
+uuid: bf7d297b-9d7d-4431-89de-fa1c888b6034
 langcode: nb
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: olivero_site_branding
-theme: olivero
+id: nnm_site_branding
+theme: nnm
 region: header
-weight: 0
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:

@@ -1,19 +1,19 @@
-uuid: e4a7c15d-c20b-40cb-adf2-0cb919ce15ac
+uuid: 4112d8b7-1897-43a9-9bd5-c03d3d809df5
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - node
-id: node.field_image_carousel
-field_name: field_image_carousel
+id: node.field_slide
+field_name: field_slide
 entity_type: node
 type: entity_reference
 settings:
   target_type: media
 module: core
 locked: false
-cardinality: 1
+cardinality: 4
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

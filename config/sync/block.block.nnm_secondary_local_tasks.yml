@@ -1,13 +1,13 @@
-uuid: d433018a-f2c4-47a2-a299-0991bd98045f
+uuid: 0e0dc12b-7652-4902-886e-ef0fd6863a4e
 langcode: nb
 status: true
 dependencies:
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
-id: olivero_secondary_local_tasks
-theme: olivero
+id: nnm_secondary_local_tasks
+theme: nnm
 region: highlighted
 weight: -2
 provider: null

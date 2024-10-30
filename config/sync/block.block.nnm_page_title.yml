@@ -1,14 +1,14 @@
-uuid: 42c64eb3-a20c-49be-b195-3d1042e4bf2d
+uuid: 4e56d170-bdf5-4bf2-aa7e-af33d264ca65
 langcode: nb
 status: true
 dependencies:
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
-region: content_above
+id: nnm_page_title
+theme: nnm
+region: sidebar_first
 weight: -5
 provider: null
 plugin: page_title_block

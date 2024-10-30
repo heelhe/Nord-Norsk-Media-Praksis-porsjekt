@@ -1,18 +1,18 @@
-uuid: eb441154-ca85-40ce-bc14-a7bcbdeb7645
+uuid: aa4ee10f-3679-456b-b34b-a79fcd77a948
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.slideshow.body
-    - field.field.node.slideshow.field_image_carousel
-    - node.type.slideshow
+    - field.field.node.image_carousel.body
+    - field.field.node.image_carousel.field_slide
+    - node.type.image_carousel
   module:
     - media_library
     - path
     - text
-id: node.slideshow.default
+id: node.image_carousel.default
 targetEntityType: node
-bundle: slideshow
+bundle: image_carousel
 mode: default
 content:
   body:
@@ -31,7 +31,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image_carousel:
+  field_slide:
     type: media_library_widget
     weight: 122
     region: content

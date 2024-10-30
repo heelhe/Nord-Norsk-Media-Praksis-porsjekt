@@ -1,4 +1,4 @@
-uuid: e577fc37-8876-412c-bd3b-54887dbb6363
+uuid: 36ecd697-d613-49dc-b772-049aebcb15e1
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Slideshow
-type: slideshow
-description: null
+name: image_Carousel
+type: image_carousel
+description: 'Use this to create slideshows/ image carousels'
 help: null
 new_revision: false
 preview_mode: 1

@@ -1,15 +1,15 @@
-uuid: a7c6b8c2-a25f-44d1-8772-ce51b9f76083
+uuid: 22e023ea-6ee4-4da9-9e0d-cc2449361676
 langcode: nb
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
-id: olivero_content
-theme: olivero
+id: nnm_content
+theme: nnm
 region: content
 weight: 0
 provider: null

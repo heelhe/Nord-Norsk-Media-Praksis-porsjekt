@@ -1,15 +1,15 @@
-uuid: 68d5d946-fbc8-413c-9e4b-37298b26b28c
+uuid: 615bfd3e-1112-42ef-ae77-2aa14e0b5715
 langcode: nb
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - nnm
 _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: olivero_messages
-theme: olivero
+id: nnm_messages
+theme: nnm
 region: highlighted
 weight: -5
 provider: null
