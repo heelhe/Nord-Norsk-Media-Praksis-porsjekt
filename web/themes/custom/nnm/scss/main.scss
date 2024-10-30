@@ -1,0 +1,11 @@
+@import 'config/vars';
+@import 'config/global';
+@import "layout/layout.scss";
+
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}

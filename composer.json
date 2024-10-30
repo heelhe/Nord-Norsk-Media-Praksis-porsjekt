@@ -20,7 +20,21 @@
         {
             "type": "vcs",
             "url": "https://git.drupalcode.org/issue/webform-3465838.git"
-          }
+          },
+        {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.5.9",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/kenwheeler/slick",
+                    "type": "git",
+                    "reference": "origin/master"
+                } 
+            }
+        }
+
     ],
     "require": {
         "composer/installers": "^2.0",

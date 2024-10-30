@@ -1,0 +1,23 @@
+name: nnm
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - nnm/main
+  - nnm/base
+  - nnm/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - nnm/user
+  core/drupal.dropbutton:
+    - nnm/dropbutton
+  core/drupal.dialog:
+    - nnm/dialog
+  file/drupal.file:
+    - nnm/file
+  core/drupal.progress:
+    - nnm/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.0.5'
