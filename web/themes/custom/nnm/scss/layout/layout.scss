@@ -79,5 +79,31 @@ h1, h2{
     
 }
 
+.region.region-footer {
+
+
+    display: flex;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    
+
+    .view-content{
+
+        margin-right: 10%;
+    }
+    .site-logo{
+
+    
+        img {
+            width: 250px;
+            height: 100px;
+
+        }
+    }
+}
 
 
