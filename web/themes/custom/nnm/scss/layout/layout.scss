@@ -1,11 +1,33 @@
 @import "../config/global";
 
+
+
+/* assets
+
+Main color: #ED1C24   # FF3333 - Logo, buttons, titles, icons etc...
+Secondary color :     # EBECED - Input fields/ contact forms
+Background color:     # FFFFFF
+
+
+Typography: Arial (Sans-serif)
+
+    headline: Arial Bold H1-H2 
+    subtitle: Arial Regular 
+
+
+*/
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+
+    
 
 }
+h1, h2{
+    font-weight: bold;
 
+}
 .layout-content {
 
     max-width: 1000px;
@@ -16,39 +38,42 @@ body {
    
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    
 
     ul.menu {
         text-align: right;
-        margin-right: 1em;
         display: flex;
-        padding: 10px;
+        
         
         li {
-            padding: 10px;
-            background-color: #ebeced;
+            
+            :hover{
+                background-color: #ebeced;
+            }
+        
             a {
                 text-decoration: none;
                 color: red;
-                
+                padding: 100px 20px 20px 20px ;
+                font-weight: bold;
+                font-size: 24px;
             }
-
-
-
         }
-
     }
 
 
 
     .site-logo {
         
-        margin-top: 10px;
+        
         padding-left: 40px;
 
         img{
-            margin-top: 10px;
-            width: 150px;
-            height: 50px;
+            margin-top: 1%;
+            width: 450px;
+            height: 150px;
         }
     }
     
