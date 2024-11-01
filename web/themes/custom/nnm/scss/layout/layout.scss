@@ -19,7 +19,7 @@ Typography: Arial (Sans-serif)
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: $background-colr;
     min-height: 100vh;
     
 
@@ -32,6 +32,8 @@ h1, h2{
 
     max-width: 1000px;
     margin: auto;
+
+
 }
 
 .region.region-header {
@@ -43,8 +45,8 @@ h1, h2{
     
 
     ul.menu {
-        text-align: right;
         display: flex;
+        text-align: right;
         
         
         li {
@@ -97,7 +99,6 @@ h1, h2{
         margin-right: 59%;
         justify-content: space-between;
 
-
         .views-field.views-field-info{
             font-weight: bold;
             color: #ED1C24;
@@ -129,9 +130,65 @@ h1, h2{
         font-weight: bold;
         padding-top: 3%;
     }
-
-
-
+    
+    
 }
 
 
+.node--type-grillhut {
+    
+    display: flex;
+    text-align: left;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    
+    
+    h2{
+        margin: auto;
+    }
+    a{
+        text-decoration: none;
+    }      
+    
+    .node__content{
+    
+        display: flex;
+    
+    }
+    
+
+
+    .field--type-image{
+
+        width: max-content;
+        padding-right: 150px;
+        
+        img{
+
+            border-radius: 1%;
+            width: 700px;
+            height: 500px;
+        }
+
+
+
+        
+    } 
+
+
+    .field--name-body{
+        width: max-content;
+       
+    } 
+
+
+
+
+
+    .field--name-title {
+        order: 2;
+        color: $nnm-red;
+        text-decoration: none;
+    }
+}
+ 

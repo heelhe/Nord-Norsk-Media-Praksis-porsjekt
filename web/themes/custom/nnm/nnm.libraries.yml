@@ -108,8 +108,11 @@ main:
   css:
     theme:
       dist/main.css: {}
+      /libraries/slick/slick/slick.css: {}
   js:
     dist/main.min.js: {}
+    /libraries/slick/slick/slick.js: { weight: -3}
+
   dependencies:
     - core/jquery
     - core/drupal
