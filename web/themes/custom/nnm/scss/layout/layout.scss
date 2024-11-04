@@ -18,22 +18,19 @@ Typography: Arial (Sans-serif)
 */
 
 body {
+
     font-family: Arial, sans-serif;
     background-color: $background-colr;
     min-height: 100vh;
-    
-
 }
 h1, h2{
-    font-weight: bold;
 
+    font-weight: bold;
 }
 .layout-content {
 
     max-width: 1000px;
     margin: auto;
-
-
 }
 
 .region.region-header {
@@ -42,20 +39,21 @@ h1, h2{
     justify-content: space-between;
     align-items: center;
     margin-right: 5%;
-    
 
     ul.menu {
+
         display: flex;
         text-align: right;
-        
         
         li {
             
             :hover{
+
                 background-color: #ebeced;
             }
         
             a {
+
                 text-decoration: none;
                 color: red;
                 padding: 100px 20px 20px 20px ;
@@ -65,14 +63,12 @@ h1, h2{
         }
     }
 
-
-
     .site-logo {
-        
         
         padding-left: 40px;
 
         img{
+
             margin-top: 1%;
             width: 450px;
             height: 150px;
@@ -83,14 +79,11 @@ h1, h2{
 
 .region.region-footer {
 
-
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: 0;
     width: 100%;
-    
-    
 
     .view-content{
 
@@ -100,6 +93,7 @@ h1, h2{
         justify-content: space-between;
 
         .views-field.views-field-info{
+
             font-weight: bold;
             color: #ED1C24;
         }
@@ -108,30 +102,25 @@ h1, h2{
 
             padding-top: 2%;
             padding-left: 6%;
-            
-
         }
-
-
     }
-    .site-logo{
 
-    
+    .site-logo{
         img {
+
             width: 350px;
             height: 150px;
         }
     }
 
     .clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item {
+
         color: red;
         display: flex;
         justify-content: center;
         font-weight: bold;
         padding-top: 3%;
     }
-    
-    
 }
 
 
@@ -140,20 +129,21 @@ h1, h2{
     display: flex;
     text-align: left;
     flex-direction: row-reverse;
-    font-size: 30px;
-    
+    font-size: 20px;  
+    padding-bottom: 10%;  
     
     h2{
+
         margin: auto;
     }
     a{
+
         text-decoration: none;
     }      
     
     .node__content{
     
         display: flex;
-    
     }
     
 
@@ -166,26 +156,17 @@ h1, h2{
         img{
 
             border-radius: 1%;
-            width: 700px;
-            height: 500px;
+            width: 100%;
+            height: 100%;
         }
-
-
-
-        
     } 
-
 
     .field--name-body{
+
         width: max-content;
-       
     } 
-
-
-
-
-
     .field--name-title {
+        
         order: 2;
         color: $nnm-red;
         text-decoration: none;
