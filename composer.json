@@ -46,10 +46,12 @@
         "drupal/devel": "^5.0",
         "drupal/slick": "^3.0",
         "drupal/slick_views": "^3.0",
+        "drupal/twig_tweak": "^3.4",
         "drupal/views_slideshow": "^5.0",
         "drush/drush": "^13.2",
         "kenwheeler/slick": "^1.6",
         "oomphinc/composer-installers-extender": "^2.0",
+        "phpmailer/phpmailer": "^6.9",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
     "conflict": {
