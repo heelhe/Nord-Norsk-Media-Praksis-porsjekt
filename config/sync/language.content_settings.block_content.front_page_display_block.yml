@@ -1,0 +1,11 @@
+uuid: ff16aca6-3795-4242-919e-017b37964cfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.front_page_display_block
+id: block_content.front_page_display_block
+target_entity_type_id: block_content
+target_bundle: front_page_display_block
+default_langcode: site_default
+language_alterable: false

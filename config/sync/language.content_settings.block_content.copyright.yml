@@ -1,0 +1,11 @@
+uuid: da160c94-876a-4d3c-9449-844931df2174
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.copyright
+id: block_content.copyright
+target_entity_type_id: block_content
+target_bundle: copyright
+default_langcode: site_default
+language_alterable: false
