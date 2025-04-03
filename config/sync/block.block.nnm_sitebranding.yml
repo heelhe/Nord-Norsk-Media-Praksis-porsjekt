@@ -1,0 +1,23 @@
+uuid: 75ac60b3-42ea-4546-9e2f-99b1f2b07ee7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nnm
+id: nnm_sitebranding
+theme: nnm
+region: footer
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

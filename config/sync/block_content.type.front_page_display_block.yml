@@ -1,0 +1,8 @@
+uuid: c5bd866d-ddff-4441-a25c-22941fd4a52e
+langcode: en
+status: true
+dependencies: {  }
+id: front_page_display_block
+label: 'front page display block'
+revision: false
+description: null

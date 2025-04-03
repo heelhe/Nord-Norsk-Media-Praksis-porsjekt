@@ -1,0 +1,25 @@
+uuid: 4a7526dc-f6ed-4473-9e08-0c6c5344b081
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:copyright:2acb2107-e854-46b9-8b6b-ba79a69196da'
+  module:
+    - block_content
+  theme:
+    - nnm
+id: nnm_copyright
+theme: nnm
+region: footer
+weight: -2
+provider: null
+plugin: 'block_content:2acb2107-e854-46b9-8b6b-ba79a69196da'
+settings:
+  id: 'block_content:2acb2107-e854-46b9-8b6b-ba79a69196da'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

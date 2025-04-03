@@ -1,21 +1,21 @@
-uuid: 3f93cdd1-c241-4d96-81fe-f44596ce5956
+uuid: 9e464c0a-7e26-4479-94f4-a304fd1c0baf
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - views.view.slick_carousel
+    - views.view.grillhut_view
   module:
     - views
   theme:
     - nnm
-id: nnm_views_block__slick_carousel_block_1
+id: nnm_views_block__grillhut_view_block_1
 theme: nnm
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:slick_carousel-block_1'
+plugin: 'views_block:grillhut_view-block_1'
 settings:
-  id: 'views_block:slick_carousel-block_1'
+  id: 'views_block:grillhut_view-block_1'
   label: ''
   label_display: '0'
   provider: views
