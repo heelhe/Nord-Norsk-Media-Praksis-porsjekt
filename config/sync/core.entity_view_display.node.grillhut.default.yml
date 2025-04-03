@@ -5,12 +5,8 @@ dependencies:
   config:
     - field.field.node.grillhut.body
     - field.field.node.grillhut.field_main_image
-    - field.field.node.grillhut.field_name
-    - field.field.node.grillhut.field_submitted_by
-    - image.style.extra_medium
     - node.type.grillhut
   module:
-    - media
     - text
     - user
 id: node.grillhut.default
@@ -26,31 +22,13 @@ content:
     weight: 1
     region: content
   field_main_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: extra_medium
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: false
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_name:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_submitted_by:
-    type: entity_reference_label
-    label: visually_hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 3
     region: content
 hidden:
   langcode: true

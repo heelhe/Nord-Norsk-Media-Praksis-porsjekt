@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.field.node.grillhut.body
     - field.field.node.grillhut.field_main_image
-    - field.field.node.grillhut.field_name
-    - field.field.node.grillhut.field_submitted_by
     - node.type.grillhut
   module:
     - media_library
@@ -33,26 +31,6 @@ content:
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
-  field_name:
-    type: entity_reference_autocomplete
-    weight: 7
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_submitted_by:
-    type: entity_reference_autocomplete
-    weight: 8
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
