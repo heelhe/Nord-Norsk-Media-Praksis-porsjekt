@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_media_image
+    - image.style.wide
     - media.type.image
   module:
     - image
@@ -126,7 +127,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: ''
+            image_style: wide
             image_loading:
               attribute: lazy
           group_column: ''
@@ -189,6 +190,7 @@ display:
         type: slick
         options:
           caption:
+            field_media_image: '0'
             name: '0'
           optionset: default
           class: ''
@@ -225,6 +227,11 @@ display:
           visible_items: null
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       query:
         type: views_query
         options:

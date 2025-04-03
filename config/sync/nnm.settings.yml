@@ -1,0 +1,10 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://nord-norsk media import as_logo_rød_0.png'
+favicon:
+  use_default: 1
