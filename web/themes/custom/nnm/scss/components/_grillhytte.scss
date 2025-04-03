@@ -1,0 +1,34 @@
+
+.node--type-grillhut {
+
+    
+
+    &.node--view-mode-teaser {
+
+    }
+}
+
+.image-right {
+            
+
+}
+
+.image-left {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: hotpink;
+    .content{
+        width: 50%;
+    }
+
+    .media{
+
+        width: 45%;
+    }
+
+}
+
+
