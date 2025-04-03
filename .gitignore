@@ -29,3 +29,6 @@
 # Manage all .gitignore files with Drupal scaffold.
 # Remove the line below and commit the files for more granular control.
 **/.gitignore
+
+# Ignore Node modules.
+/web/themes/custom/*/node_modules
