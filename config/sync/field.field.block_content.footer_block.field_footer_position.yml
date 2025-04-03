@@ -1,0 +1,23 @@
+uuid: 1d6899a0-221e-4999-bdee-62f53c0dabd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.storage.block_content.field_footer_position
+id: block_content.footer_block.field_footer_position
+field_name: field_footer_position
+entity_type: block_content
+bundle: footer_block
+label: 'footer position'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
