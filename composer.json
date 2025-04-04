@@ -50,6 +50,7 @@
         "drupal/twig_tweak": "^3.4",
         "drupal/views_slideshow": "^5.0",
         "drupal/viewsreference": "2.x-dev@dev",
+        "drupal/webform": "6.x-dev@dev",
         "drush/drush": "^13.2",
         "oomphinc/composer-installers-extender": "^2.0",
         "phpmailer/phpmailer": "^6.9",
