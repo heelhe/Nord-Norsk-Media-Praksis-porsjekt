@@ -1,0 +1,10 @@
+uuid: 0a5ec0d8-0d5d-4e44-b619-2f03e7a482fc
+langcode: en
+status: true
+dependencies: {  }
+id: hero_media
+label: 'hero media'
+icon_uuid: null
+icon_default: null
+description: 'full width image'
+behavior_plugins: {  }

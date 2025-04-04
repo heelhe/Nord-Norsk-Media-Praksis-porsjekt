@@ -1,34 +1,51 @@
 
 .node--type-grillhut {
 
-    
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    padding-bottom: 10em;
+
 
     &.node--view-mode-teaser {
-
     }
+
+    a{
+        text-decoration: none;
+        color: $nnm-main;
+    }
+
+    img{ 
+
+        border-radius: 10px;
+        width: 50em;
+        height: auto;
+    }
+
+    .content {
+
+        font-size: 2.5em;
+    }
+
 }
 
 .image-right {
             
+    .node--type-grillhut {
 
+        flex-direction: row;
+    }
 }
 
 .image-left {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    background-color: hotpink;
-    .content{
-        width: 50%;
+    .node--type-grillhut { 
+
+        flex-direction: row-reverse;
     }
 
-    .media{
-
-        width: 45%;
-    }
-
+    
 }
 
 

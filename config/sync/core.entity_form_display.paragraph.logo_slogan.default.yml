@@ -1,0 +1,33 @@
+uuid: 9139ef19-2fab-495c-b042-f78ae39622d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_slogan.field_logo
+    - field.field.paragraph.logo_slogan.field_slogan
+    - paragraphs.paragraphs_type.logo_slogan
+  module:
+    - media_library
+id: paragraph.logo_slogan.default
+targetEntityType: paragraph
+bundle: logo_slogan
+mode: default
+content:
+  field_logo:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_slogan:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

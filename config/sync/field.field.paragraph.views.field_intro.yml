@@ -1,0 +1,19 @@
+uuid: b7ee1f28-6988-453e-a327-0fba07e7eca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_intro
+    - paragraphs.paragraphs_type.views
+id: paragraph.views.field_intro
+field_name: field_intro
+entity_type: paragraph
+bundle: views
+label: 'intro '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -5,10 +5,8 @@ dependencies:
   config:
     - field.field.node.image_carousel.body
     - field.field.node.image_carousel.field_slide
-    - image.style.wide
     - node.type.image_carousel
   module:
-    - slick
     - text
     - user
 id: node.image_carousel.default
@@ -24,71 +22,12 @@ content:
     weight: 101
     region: content
   field_slide:
-    type: slick_media
-    label: hidden
+    type: entity_reference_label
+    label: above
     settings:
-      caption:
-        alt: '0'
-        title: '0'
-      optionset: default
-      class: ''
-      image: ''
-      link: ''
-      overlay: ''
-      title: ''
-      vanilla: false
-      by_delta: -1
-      layout: ''
-      view_mode: default
-      cache: 0
-      admin_uri: '/en/admin/structure/types/manage/image_carousel/display?ajax_form=1&_wrapper_format=drupal_ajax'
-      use_lb: false
-      background: false
-      box_caption: ''
-      box_caption_custom: ''
-      box_media_style: ''
-      loading: ''
-      preload: false
-      responsive_image_style: ''
-      use_theme_field: false
-      box_style: ''
-      image_style: wide
-      media_switch: ''
-      ratio: ''
-      thumbnail_style: ''
-      grid: ''
-      grid_medium: ''
-      grid_small: ''
-      style: ''
-      svg_inline: false
-      svg_fill: false
-      svg_sanitize: true
-      svg_sanitize_remote: false
-      svg_hide_caption: false
-      svg_attributes: ''
-      skin: default
-      overridables:
-        arrows: '0'
-        autoplay: '0'
-        dots: '0'
-        draggable: '0'
-        infinite: '0'
-        mouseWheel: '0'
-        randomize: '0'
-        variableWidth: '0'
-      thumbnail: ''
-      optionset_thumbnail: ''
-      skin_thumbnail: ''
-      thumbnail_caption: ''
-      thumbnail_effect: hover
-      thumbnail_position: ''
-      override: false
-      skin_arrows: ''
-      skin_dots: ''
-      preserve_keys: false
-      visible_items: null
+      link: true
     third_party_settings: {  }
-    weight: 102
+    weight: 103
     region: content
   links:
     settings: {  }

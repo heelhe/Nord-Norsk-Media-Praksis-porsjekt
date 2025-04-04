@@ -1,0 +1,10 @@
+uuid: 84ccd4dd-ca4a-4ebe-9091-5447cec9cea8
+langcode: en
+status: true
+dependencies: {  }
+id: submission_form
+label: 'submission form'
+icon_uuid: null
+icon_default: null
+description: 'submission form for contact '
+behavior_plugins: {  }

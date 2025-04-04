@@ -1,0 +1,17 @@
+uuid: db545bee-12bd-41c0-90b6-c02cf667c595
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'landing page'
+type: landing_page
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

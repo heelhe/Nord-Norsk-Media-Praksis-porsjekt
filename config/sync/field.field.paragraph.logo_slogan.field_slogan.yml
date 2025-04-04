@@ -1,0 +1,19 @@
+uuid: 7a7bea49-3ba4-4129-98ed-fec2e5cdf72e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slogan
+    - paragraphs.paragraphs_type.logo_slogan
+id: paragraph.logo_slogan.field_slogan
+field_name: field_slogan
+entity_type: paragraph
+bundle: logo_slogan
+label: slogan
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

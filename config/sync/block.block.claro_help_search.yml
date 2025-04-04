@@ -21,7 +21,7 @@ plugin: search_form_block
 settings:
   id: search_form_block
   label: 'Hjelp med søk'
-  label_display: visible
+  label_display: synlig
   provider: search
   page_id: help_search
 visibility:

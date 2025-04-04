@@ -1,0 +1,10 @@
+uuid: b7318ce5-c6ce-4b38-900c-4c53fda4af46
+langcode: en
+status: true
+dependencies: {  }
+id: logo_slogan
+label: 'logo slogan'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
