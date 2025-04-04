@@ -1,0 +1,13 @@
+settings:
+  default_submit_button_label: Send
+  default_reset_button_label: Nullstill
+  default_delete_button_label: Slett
+  default_preview_next_button_label: Forhåndsvisning
+  default_preview_label: Forhåndsvisning
+  dialog_options:
+    narrow:
+      title: Smal
+    wide:
+      title: Bred
+element:
+  default_more_title: Mer
