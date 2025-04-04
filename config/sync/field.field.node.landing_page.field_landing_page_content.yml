@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_landing_page_content
     - node.type.landing_page
+    - paragraphs.paragraphs_type.contact_us
     - paragraphs.paragraphs_type.hero_media
     - paragraphs.paragraphs_type.logo_slogan
     - paragraphs.paragraphs_type.submission_form
@@ -27,10 +28,14 @@ settings:
     target_bundles:
       hero_media: hero_media
       submission_form: submission_form
+      contact_us: contact_us
       logo_slogan: logo_slogan
       views: views
     negate: 0
     target_bundles_drag_drop:
+      contact_us:
+        weight: 6
+        enabled: true
       hero_media:
         weight: 4
         enabled: true

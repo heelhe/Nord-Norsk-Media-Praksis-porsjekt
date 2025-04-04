@@ -1,0 +1,38 @@
+.paragraph--type--contact-us{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .field--name-field-contact-title {
+
+        font-size: 2.5em;
+        font-weight: bold;
+        color: $nnm-main;
+    
+    }
+    .field--name-field-contact-form  {
+
+        .js-form-item-name    {
+
+
+        }
+        .js-form-type-email   {
+
+
+        }
+        .s-form-item-subject  {
+
+
+        }
+        .js-form-item-message {
+
+            
+        }
+
+
+    }
+
+
+
+}

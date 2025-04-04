@@ -1,0 +1,33 @@
+uuid: 72805749-51ca-4cf1-acae-da38c00f330c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contact_us.field_contact_form
+    - field.field.paragraph.contact_us.field_contact_title
+    - paragraphs.paragraphs_type.contact_us
+  module:
+    - webform
+id: paragraph.contact_us.default
+targetEntityType: paragraph
+bundle: contact_us
+mode: default
+content:
+  field_contact_form:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_contact_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

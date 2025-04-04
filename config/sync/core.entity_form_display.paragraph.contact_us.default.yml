@@ -1,0 +1,34 @@
+uuid: b4a11d0c-06c2-4d3f-b855-38a7abb9e361
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contact_us.field_contact_form
+    - field.field.paragraph.contact_us.field_contact_title
+    - paragraphs.paragraphs_type.contact_us
+  module:
+    - webform
+id: paragraph.contact_us.default
+targetEntityType: paragraph
+bundle: contact_us
+mode: default
+content:
+  field_contact_form:
+    type: webform_entity_reference_select
+    weight: 1
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+  field_contact_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
