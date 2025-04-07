@@ -1,0 +1,31 @@
+.node--type-grillhut{
+
+
+    &.node--view-mode-full{
+        
+        a{
+            text-decoration: none;
+            color: $nnm-main;
+        }
+    
+        img{ 
+    
+            border-radius: 10px;
+            width: 50em;
+            height: auto;
+        }
+    
+        .content {
+            font-size: 2.5em;
+            
+            h2 {
+                margin-top: 0%;
+            }
+            
+    
+        }
+    
+
+    }
+
+}

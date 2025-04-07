@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.contact_us.field_alt_contact
+    - field.field.paragraph.contact_us.field_alt_contact_title
     - field.field.paragraph.contact_us.field_contact_form
     - field.field.paragraph.contact_us.field_contact_title
     - paragraphs.paragraphs_type.contact_us
@@ -13,6 +15,22 @@ targetEntityType: paragraph
 bundle: contact_us
 mode: default
 content:
+  field_alt_contact:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_alt_contact_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_contact_form:
     type: webform_entity_reference_entity_view
     label: hidden

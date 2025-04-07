@@ -5,10 +5,10 @@ dependencies:
   config:
     - field.storage.node.field_landing_page_content
     - node.type.landing_page
+    - paragraphs.paragraphs_type.about_us
     - paragraphs.paragraphs_type.contact_us
     - paragraphs.paragraphs_type.hero_media
     - paragraphs.paragraphs_type.logo_slogan
-    - paragraphs.paragraphs_type.submission_form
     - paragraphs.paragraphs_type.views
   module:
     - entity_reference_revisions
@@ -27,12 +27,15 @@ settings:
   handler_settings:
     target_bundles:
       hero_media: hero_media
-      submission_form: submission_form
+      about_us: about_us
       contact_us: contact_us
       logo_slogan: logo_slogan
       views: views
     negate: 0
     target_bundles_drag_drop:
+      about_us:
+        weight: 6
+        enabled: true
       contact_us:
         weight: 6
         enabled: true
@@ -41,9 +44,6 @@ settings:
         enabled: true
       logo_slogan:
         weight: 6
-        enabled: true
-      submission_form:
-        weight: 5
         enabled: true
       views:
         weight: 6

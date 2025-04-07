@@ -2,7 +2,6 @@
 .node--type-grillhut {
 
     display: flex;
-    align-items: center;
     column-gap: 20px;
     justify-content: space-evenly;
     padding-bottom: 10em;
@@ -24,8 +23,13 @@
     }
 
     .content {
-
         font-size: 2.5em;
+        
+        h2 {
+            margin-top: 0%;
+        }
+        
+
     }
 
 }

@@ -6,33 +6,99 @@
 
     .field--name-field-contact-title {
 
-        font-size: 2.5em;
+        font-size: 4em;
         font-weight: bold;
         color: $nnm-main;
+        margin-bottom: 1em;
     
     }
     .field--name-field-contact-form  {
+        margin-bottom: 4%;
+        
+        .webform-submission-form{
 
-        .js-form-item-name    {
-
-
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 30em;
+            box-sizing: border-box;
+            font-size: 1.5em;
         }
-        .js-form-type-email   {
 
+        .form-item {
 
-        }
-        .s-form-item-subject  {
-
-
-        }
-        .js-form-item-message {
-
+            margin-top: 1%;
+            margin-bottom: 1%;
             
         }
 
+        .js-form-item-name    {
+            width: 50%;
+            
+            .form-text {
 
+                width: 95%;
+                height: auto;
+                color: $nnm-secondary;
+                padding-left: 3%;
+                border-color: $nnm-secondary;
+                border-width: 0.5px;
+                border-radius: 5px;
+            }
+        }
+
+        .js-form-type-email   {
+            width: 50%;
+            
+
+            .form-email {
+
+                width: 96%;
+                color: $nnm-secondary;
+                border-color: $nnm-secondary;
+                padding-left: 3%;
+                border-width: 0.5px;
+                border-radius: 5px;
+
+
+            }
+        }
+        
+        .js-form-item-message {
+            
+            .form-textarea {
+                color: $nnm-secondary;
+                border-color: $nnm-secondary;
+                padding-left: 3%;
+                border-width: 0.5px;
+                border-radius: 5px;
+
+            }
+            
+        }
+
+        .js-form-submit{
+
+            background-color: $nnm-main;
+            color: $nnm-sub;
+            border-style: none;
+            width: 15em;
+            height: auto;
+            font-size: 2em;
+            max-width: 100%;
+            border-radius: 5px;
+          
+        }
     }
 
+    .field--name-field-alt-contact-title {
+        font-size: 1.5em;
 
+    }
+    .field--name-field-alt-contact {
 
+        color: $nnm-main;
+        font-size: 1.7em;
+        text-decoration: underline;
+    }
 }

@@ -5,3 +5,11 @@ $nnm-main: #ED1C24;
 $nnm-secondary: #FF3333;
 $nnm-sub: #EBECED;
 
+$media-mobile: "all and (max-width: 479px)";
+$media-mobile-tablet: "all and (max-width: 770px)";
+$media-tablet-desktop: "all and (min-width: 480px)";
+$media-tablet: "all and (min-width: 480px) and (max-width: 770px)";
+$media-desktop: "all and (min-width: 770px)";
+$media-desktop-xl: "all and (min-width: 1200px)";
+$media-large-screen: "all and (min-width: 770px)";
+$media-small-screen: "all and (max-width: 770px)";

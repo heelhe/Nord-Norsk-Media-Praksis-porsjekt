@@ -1,0 +1,56 @@
+uuid: 7e47610f-e71d-484a-b5e9-d3329da1abe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us.field_about_us_hero_image
+    - field.field.paragraph.about_us.field_about_us_info1
+    - field.field.paragraph.about_us.field_about_us_info2
+    - field.field.paragraph.about_us.field_about_us_intro
+    - field.field.paragraph.about_us.field_about_us_title
+    - paragraphs.paragraphs_type.about_us
+id: paragraph.about_us.default
+targetEntityType: paragraph
+bundle: about_us
+mode: default
+content:
+  field_about_us_hero_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: banner
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_about_us_info1:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_about_us_info2:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_about_us_intro:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_about_us_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

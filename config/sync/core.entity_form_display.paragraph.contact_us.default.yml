@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.contact_us.field_alt_contact
+    - field.field.paragraph.contact_us.field_alt_contact_title
     - field.field.paragraph.contact_us.field_contact_form
     - field.field.paragraph.contact_us.field_contact_title
     - paragraphs.paragraphs_type.contact_us
@@ -13,6 +15,22 @@ targetEntityType: paragraph
 bundle: contact_us
 mode: default
 content:
+  field_alt_contact:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_alt_contact_title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_contact_form:
     type: webform_entity_reference_select
     weight: 1

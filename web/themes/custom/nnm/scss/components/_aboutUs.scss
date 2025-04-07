@@ -1,0 +1,82 @@
+.paragraph--type--about-us{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15em;    
+
+
+    
+
+    .field--name-field-about-us-title{
+
+        color:  $nnm-main;
+        font-size: 4em;
+        width: max-content;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+
+
+    .field-intro{
+
+        justify-items: center;
+
+        .field--name-field-about-us-intro{
+
+            font-size: 1.8em;
+            width: 60%;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    }
+   
+
+    .field-hero-image{
+
+        width: 100%;
+        margin-bottom: 0%;
+
+        .field--name-field-about-us-hero-image{
+
+
+            margin-bottom: 5em;
+    
+            img{
+    
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+
+    .field-info-group{
+
+        display: flex;
+        flex-direction: row;
+        font-size: 1.5em;
+        gap: 3em;
+
+        .field--name-field-about-us-info1{
+            
+            
+        }
+        .field--name-field-about-us-info2{
+    
+            
+        }
+    }
+
+
+    
+
+
+
+
+
+
+}
