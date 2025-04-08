@@ -1,3 +1,6 @@
+@import "../config/_config.scss";
+
+
 .paragraph--type--about-us{
 
 
@@ -7,9 +10,43 @@
     align-items: center;
     margin-bottom: 15em;    
 
+    @media #{$media-mobile-tablet} {
 
+
+        .field-info-group{
+
+            flex-direction: column;
+            width: 50%;
+            
+
+            .info1, .info2{ 
+                
+                font-size: 0.8em;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .field--name-field-about-us-info1{
+                display: flex;
+            }
+        }
+
+        .field-hero-image{
+            img { 
+
+                width: 100% !important;    
+                height: 15em !important;
+            }
+           
+
+            .field--name-field-about-us-hero-image{
+
+               
+            }
+        }
+        
+    }
     
-
     .field--name-field-about-us-title{
 
         color:  $nnm-main;
@@ -18,8 +55,6 @@
         font-weight: bold;
         margin-bottom: 0.5em;
     }
-
-
 
     .field-intro{
 
@@ -34,7 +69,6 @@
         }
     }
    
-
     .field-hero-image{
 
         width: 100%;
@@ -52,12 +86,10 @@
             }
         }
     }
-    
 
     .field-info-group{
 
         display: flex;
-        flex-direction: row;
         font-size: 1.5em;
         gap: 3em;
 
@@ -70,13 +102,4 @@
             
         }
     }
-
-
-    
-
-
-
-
-
-
 }

@@ -1,36 +1,71 @@
 
+@import "../config/_config.scss";
+
+
+
 .node--type-grillhut {
 
-    display: flex;
-    column-gap: 20px;
-    justify-content: space-evenly;
-    padding-bottom: 10em;
+ 
+
+
+
 
 
     &.node--view-mode-teaser {
-    }
 
-    a{
-        text-decoration: none;
-        color: $nnm-main;
-    }
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-evenly;
+        padding-bottom: 10em;
 
-    img{ 
 
-        border-radius: 10px;
-        width: 50em;
-        height: auto;
-    }
+        @media #{$media-mobile-tablet} {
+            display: block;
+            
 
-    .content {
-        font-size: 2.5em;
-        
-        h2 {
-            margin-top: 0%;
+            p {
+                
+                font-size: 0.5em;
+            }
+
+            a {
+
+                font-size: 1em;
+            }
+
+            img{
+
+                width: 100%;
+                height: auto;
+            }
+
+            .content{
+
+                padding-left: 1.5%;
+            }
         }
-        
 
+    
+        a{
+            text-decoration: none;
+            color: $nnm-main;
+        }
+    
+        img{ 
+    
+            border-radius: 10px;
+        }
+    
+        .content {
+            font-size: 2.5em;
+            
+            h2 {
+                margin-top: 0%;
+            }
+        }
     }
+
+
 
 }
 

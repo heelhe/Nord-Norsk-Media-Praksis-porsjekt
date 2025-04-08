@@ -7,4 +7,14 @@
     padding-bottom: 4em;
 
 
+
+    @media #{$media-mobile-tablet} {
+        
+        text-align: center;
+    }
+
+
+
+
+
 }

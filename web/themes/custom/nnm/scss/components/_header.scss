@@ -1,0 +1,44 @@
+.region.region-header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    
+
+    ul.menu {
+        text-align: right;
+        display: flex;
+        
+        
+        li {
+            
+            :hover{
+                background-color: #ebeced;
+            }
+        
+            a {
+                text-decoration: none;
+                color: red;
+                padding: 100px 20px 20px 20px ;
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+    }
+
+
+
+    .site-logo {
+        
+        
+        padding-left: 40px;
+
+        img{
+            margin-top: 1%;
+            width: 450px;
+            height: 150px;
+        }
+    }
+    
+}
