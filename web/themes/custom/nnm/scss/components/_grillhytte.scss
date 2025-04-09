@@ -5,18 +5,13 @@
 
 .node--type-grillhut {
 
- 
-
-
-
-
 
     &.node--view-mode-teaser {
 
         display: flex;
         column-gap: 20px;
         justify-content: space-evenly;
-        padding-bottom: 10em;
+        margin: $section-margin;
 
 
         @media #{$media-mobile-tablet} {

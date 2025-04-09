@@ -1,6 +1,5 @@
 .region.region-footer {
 
-
     display: flex;
     flex-direction: column;
     position: relative;
@@ -8,21 +7,16 @@
     width: 100%;
     background-color: $nnm-sub;
 
-
     @media #{$media-mobile-tablet}{
 
-
         .site-logo{
-
     
             img {
+
                 width: 20em !important;
                 height: auto !important;
             }
         }
-
-      
-
 
         .view-content{
 
@@ -32,6 +26,7 @@
             flex-wrap: wrap;
     
             .views-row{
+
                 width: 40%;
                 padding: 0% !important;
                 margin-bottom: 4%;
@@ -40,21 +35,14 @@
 
                     font-size: 1.5em;
                 }
-            
             }
-
-
-
-
         }
 
         .block-system-branding-block{
+            
             text-align: center;
-
         }
     }
-
-
 
     .view-content{
 
@@ -63,8 +51,8 @@
         justify-content: space-evenly;
         margin-right: 30% ;
 
-
         .views-field.views-field-info{
+            
             font-weight: bold;
             color: #ED1C24;
         }
@@ -73,15 +61,12 @@
 
             padding-top: 2%;
             padding-left: 6%;
-            
-
         }
-
-
     }
     .site-logo{
 
         img {
+            
             width: 30em;
             height: auto;
         }

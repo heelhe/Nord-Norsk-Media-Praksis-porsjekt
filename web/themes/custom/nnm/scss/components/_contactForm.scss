@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: $section-margin;
 
     @media #{$media-mobile-tablet} {
         
@@ -18,24 +19,15 @@
             flex-direction: column !important;
             width: 75% !important;   
             
-            
             input {
 
                 width: 90%;
                 font-size: 0.9em;
-
             }
             .form-item{
                 width: 100% !important;
             }
-
-
-
-
         }
-
-
-
     }
 
     input {
@@ -53,11 +45,11 @@
         font-size: 4em;
         font-weight: bold;
         color: $nnm-main;
-        margin-bottom: 1em;
     }
 
     .field--name-field-contact-form  {
-        margin-bottom: 4%;
+
+        margin: $content-margin;
         
         .webform-submission-form{
 
@@ -75,15 +67,12 @@
             margin: 1% auto;
         }
 
-        .js-form-item-name    {
-            width: 50%;
+        .form-item-name    {
             
-            .form-text {
-          
-            }
+            width: 50%;
         }
 
-        .js-form-type-email   {
+        .form-type-email   {
             width: 50%;
             
             .form-email {
@@ -91,7 +80,7 @@
             }
         }
         
-        .js-form-item-message {
+        .form-item-message {
 
             width: 100%;
             
@@ -126,15 +115,13 @@
     }
 
     .field--name-field-alt-contact-title {
+        
         font-size: 1.5em;
-
     }
 
-    .field--name-field-alt-contact {
+    .field--name-field-link-to-mail{
 
         color: $nnm-main;
         font-size: 1.7em;
-        text-decoration: underline;
-        margin-bottom: 5%;
     }
 }

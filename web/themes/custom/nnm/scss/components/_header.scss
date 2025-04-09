@@ -1,15 +1,14 @@
 .region.region-header {
-   
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 5%;
     
-
     ul.menu {
+        
         text-align: right;
         display: flex;
-        
         
         li {
             
@@ -27,10 +26,7 @@
         }
     }
 
-
-
     .site-logo {
-        
         
         padding-left: 40px;
 
@@ -40,5 +36,4 @@
             height: 150px;
         }
     }
-    
 }

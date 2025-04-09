@@ -3,22 +3,19 @@
 
 .paragraph--type--about-us{
 
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 15em;    
+    margin: $section-margin;    
 
     @media #{$media-mobile-tablet} {
-
 
         .field-info-group{
 
             flex-direction: column;
             width: 50%;
             
-
             .info1, .info2{ 
                 
                 font-size: 0.8em;
@@ -37,14 +34,7 @@
                 width: 100% !important;    
                 height: 15em !important;
             }
-           
-
-            .field--name-field-about-us-hero-image{
-
-               
-            }
         }
-        
     }
     
     .field--name-field-about-us-title{
@@ -53,7 +43,7 @@
         font-size: 4em;
         width: max-content;
         font-weight: bold;
-        margin-bottom: 0.5em;
+        margin-bottom: $title-margin-bottom;
     }
 
     .field-intro{
@@ -76,7 +66,6 @@
 
         .field--name-field-about-us-hero-image{
 
-
             margin-bottom: 5em;
     
             img{
@@ -92,14 +81,5 @@
         display: flex;
         font-size: 1.5em;
         gap: 3em;
-
-        .field--name-field-about-us-info1{
-            
-            
-        }
-        .field--name-field-about-us-info2{
-    
-            
-        }
     }
 }

@@ -1,10 +1,9 @@
-$blue: blue;
-$red: red;
-$white: white;
+// Theme Colors
 $nnm-main: #ED1C24;
 $nnm-secondary: #FF3333;
 $nnm-sub: #EBECED;
 
+// Media Query 
 $media-mobile: "all and (max-width: 479px)";
 $media-mobile-tablet: "all and (max-width: 770px)";
 $media-tablet-desktop: "all and (min-width: 480px)";
@@ -13,3 +12,11 @@ $media-desktop: "all and (min-width: 770px)";
 $media-desktop-xl: "all and (min-width: 1200px)";
 $media-large-screen: "all and (min-width: 770px)";
 $media-small-screen: "all and (max-width: 770px)";
+
+// Margins
+$section-margin: 3em 0em;
+$content-margin: 3em 0em;
+$title-margin-bottom: 0.2em;
+
+// Font size
+$teaser-text: 1.5em;
