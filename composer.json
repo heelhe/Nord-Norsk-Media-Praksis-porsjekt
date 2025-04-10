@@ -47,6 +47,7 @@
         "drupal/paragraphs": "1.19",
         "drupal/slick": "^3.0",
         "drupal/slick_views": "^3.0",
+        "drupal/superfish": "^1.10",
         "drupal/twig_tweak": "^3.4",
         "drupal/views_slideshow": "^5.0",
         "drupal/viewsreference": "2.x-dev@dev",
