@@ -14,9 +14,9 @@ $media-large-screen: "all and (min-width: 770px)";
 $media-small-screen: "all and (max-width: 770px)";
 
 // Margins
-$section-margin: 3em 0em;
-$content-margin: 3em 0em;
-$title-margin-bottom: 0.2em;
+$section-margin: 3em 0em; // For margins between paragraphs
+$content-margin: 2em 0em; // Margin between content in paragraphs
+$title-margin-bottom: 0.5em; // Margin between title and content
 
 // Font size
 $teaser-text: 1.5em;

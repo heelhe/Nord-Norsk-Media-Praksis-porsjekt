@@ -1,7 +1,8 @@
 
 .paragraph--type--logo-slogan{
 
-    margin: $section-margin;
+    margin-top: 0.5em;
+    margin-bottom: 9em;
 
     .field--name-field-logo{
 
@@ -21,6 +22,6 @@
         justify-content: center;
         font-size: 2.5em;
         font-style: italic;
-        margin-top: -0.5em;
+        margin-top: -1em;
     }
 }

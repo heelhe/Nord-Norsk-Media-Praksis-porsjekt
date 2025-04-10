@@ -1,47 +1,84 @@
 
 @import "../config/_config.scss";
 
-
-
 .node--type-grillhut {
-
 
     &.node--view-mode-teaser {
 
         display: flex;
-        column-gap: 20px;
-        justify-content: space-evenly;
-        margin: $section-margin;
+        justify-content: center;
+        margin: 4em 0;
+        column-gap: 15em;
 
-
-        @media #{$media-mobile-tablet} {
-            display: block;
-            
-
-            p {
-                
-                font-size: 0.5em;
-            }
-
-            a {
-
-                font-size: 1em;
-            }
+        .media{
 
             img{
 
-                width: 100%;
-                height: auto;
+                border-radius: 10px;
             }
 
-            .content{
+            @media #{$media-mobile-tablet} {
 
-                padding-left: 1.5%;
+               
+                img {
+
+                    width: 90%;
+                    height: auto;
+                }
+                
+                .field--type-image{
+
+                    .field__item{
+
+
+                        text-align: center;
+
+                    }
+                }
+
+                .image-style-grillhut-teaser {
+                    max-width: 100%;
+                }
             }
         }
+            
+        .content {
+            
+            @media #{$media-mobile-tablet} {
 
-    
+                padding: 1.5em;
+            }
+
+            h3 {
+                margin-top: 0%;
+
+                a{
+                    text-decoration: none;
+                    color: $nnm-main;
+                }        
+            }
+
+            .field--name-body{
+
+                font-size: 2em;
+
+                @media #{$media-mobile-tablet} {
+
+                    font-size: 1.3em;
+                }
+            }
+        }
+    }
+
+    &.node--view-mode-full{
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: $section-margin;
+
         a{
+
             text-decoration: none;
             color: $nnm-main;
         }
@@ -49,26 +86,36 @@
         img{ 
     
             border-radius: 10px;
+            width: 50em;
+            height: auto;
+        }
+        
+        h2 {
+            margin-top: 0%;
+            height: max-content;
+            width: max-content;
         }
     
         .content {
-            font-size: 2.5em;
             
-            h2 {
-                margin-top: 0%;
-            }
+            font-size: 2.5em; 
         }
     }
-
-
-
 }
 
 .image-right {
             
     .node--type-grillhut {
 
-        flex-direction: row;
+        &.node--view-mode-teaser{
+
+            flex-direction: row;
+
+            @media #{$media-mobile-tablet} {
+
+                flex-direction: column-reverse;
+            }
+        }
     }
 }
 
@@ -76,10 +123,17 @@
 
     .node--type-grillhut { 
 
-        flex-direction: row-reverse;
-    }
+        &.node--view-mode-teaser{
 
-    
+            flex-direction: row-reverse;
+
+            @media #{$media-mobile-tablet} {
+
+                flex-direction: column-reverse;
+            }
+        }
+    }
 }
+
 
 
