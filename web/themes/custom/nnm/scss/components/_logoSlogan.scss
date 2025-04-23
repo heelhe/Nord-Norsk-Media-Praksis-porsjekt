@@ -4,6 +4,11 @@
     margin-top: 0.5em;
     margin-bottom: 9em;
 
+    @media #{$media-mobile-tablet} {
+
+        margin-bottom: 5em;
+    }
+
     .field--name-field-logo{
 
         display: flex;

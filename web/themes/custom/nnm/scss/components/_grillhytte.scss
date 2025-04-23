@@ -10,6 +10,12 @@
         margin: 4em 0;
         column-gap: 15em;
 
+        @media #{$media-mobile-tablet} {
+
+            margin-bottom: 2em;
+            margin-top: 1em;
+        }
+
         .media{
 
             img{
@@ -51,6 +57,7 @@
 
             h3 {
                 margin-top: 0%;
+                margin-bottom: 0;
 
                 a{
                     text-decoration: none;

@@ -2,17 +2,13 @@ import { makeRed, makeBlue } from './utils.js'
 
 (($, Drupal) => {
 
-  Drupal.behaviors.myBehavior = {
+  Drupal.behaviors.collapse = { 
     attach: function (context, settings) {
-      $(document).once('my-behavior').on('click', function (event) {
-        if ($(event.target).hasClass('blue')) {
-          makeRed($(event.target));
-        }
-        else {
-          makeBlue($(event.target));
-        }
-      });
+
+      $('.menu-mobile span').one("click", function() {
+        $(this).siblings('.menu').toggleClass('open');
+        console.log("test");
+      })
     }
   }
-
 })(jQuery, Drupal);

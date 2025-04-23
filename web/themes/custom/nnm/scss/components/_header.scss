@@ -5,10 +5,17 @@
     align-items: center;
     margin-right: 5%;
     
+    .menu-mobile {
+        display:flex;
+    }
     ul.menu {
         
         text-align: right;
         display: flex;
+
+        &.open {
+            background-color: hotpink;
+        }
         
         li {
             
@@ -26,14 +33,23 @@
         }
     }
 
+    .block-system-branding-block{
+
+        @media #{$media-mobile-tablet} {
+
+            margin-left: -1.5em;
+        }
+    }
+    
     .site-logo {
-        
-        padding-left: 40px;
 
         img{
-            margin-top: 1%;
-            width: 450px;
-            height: 150px;
+
+            @media #{$media-mobile-tablet} {
+                
+                width: 18em;
+                height: auto;  
+            }
         }
     }
 }
